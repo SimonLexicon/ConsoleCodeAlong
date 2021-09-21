@@ -26,7 +26,7 @@ namespace ConsoleCodeAlong
                             Console.WriteLine("#{0}", i);
                         }
                         break;
-
+                        // Do not use "Goto:"
                     case 1:
                         Console.WriteLine("Calculate age, input a birth-year");
                         int birthYear = GetNumberFromUser();
